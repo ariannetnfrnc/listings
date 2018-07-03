@@ -1,0 +1,312 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.green{
+    background-color: #4ea998;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.ip6ttl{
+  margin: auto;
+    padding-left: 50px !important;;
+  width: 100%;
+}
+.ip6ttl h1{
+    font-size: 60px;
+    font-weight: lighter;
+    margin-bottom: -20px;
+}
+.ip6ttl h2{
+    font-weight: lighter;
+}
+.sixcol{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.sevencol{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.second{
+    padding: 70px 0px;
+}
+.banner{
+      border-bottom: solid #efbc60 10px;
+}
+.ttl{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #c98b1c;
+    font-weight: bolder;
+
+}
+.ttl img{
+    width:100px;
+    vertical-align: middle; 
+    margin-left: -25px;
+    margin-top: -10px;
+}
+
+/*Utilities*/
+.u-full-width {
+ width: 100%;
+ box-sizing: border-box; }
+.u-max-small-width{
+  max-width:60%;
+ box-sizing: border-box;
+}
+.u-max-full-width {
+ max-width: 100%;
+ box-sizing: border-box; }
+
+ 
+.u-pull-right {
+ float: right; }
+.u-pull-left {
+ float: left; }
+.ico{
+    width: 120px;
+}
+.ico2{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+ 
+.dotter{ width:100%; }
+.dotter .dot-ii{ height:50px; width:50px; display: inline-block; border-radius: 50%; margin:2% 1%;}
+.dotter .dot-ii:first-child{ background-color: #999999; }
+.dotter .dot-ii:nth-child(2){ background-color: #DDDDDD; }
+.dotter .dot-ii:nth-child(3){ background-color: #EEDDCC; }
+.dotter .dot-ii:nth-child(4){ background-color: #E7BEB8; }
+
+.margin{
+    padding: 50px 250px;
+    text-align: center;
+}
+.factoryunlock{
+    color: #51a28f;
+}
+.divtitle{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.divdesc{
+    font-size: 30px;
+}
+.warranty{
+    background-color: #efbc60;
+}
+.warranty .divtitle{
+    color: white;
+}
+.warranty .divdesc{
+    color: #9a6c15;
+}
+.specifications .divtitle{
+    text-align: left;
+    color: #c98b1c;
+}
+.specifications .sixcol{
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #4ea998;
+}
+.firstcol{
+    margin-right: 20px;
+}
+.seconcol{
+    margin-left: 20px;
+}
+.specifications .desc{
+    float: right;
+    color: #242424;
+}
+.shipping{
+    background-color: #81cbbe;
+    color: white;
+    text-transform: uppercase;
+}
+.shipping p{
+    color: #266157;
+    font-weight: bold;
+}
+
+
+.rftable{
+    background-color: #efbc60;
+    padding: 50px 300px;
+}
+.rftable .divtitle{
+    text-align: center;
+    color: white;
+    margin-top: -20px;
+}
+.rftable table{
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+   margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+.rftable th{
+    color: #b7882f;
+    text-align: right;
+    width: 50%;
+    padding-right: 10px;
+
+}
+.rftable td{
+    padding-left: 10px;
+    border-left: solid 2px #d7a449;
+    width: 50%;
+    font-weight: bold;
+    color: white;
+}
+.rftable table tbody tr{
+   border: solid 2px #d7a449;
+   height: 50px;
+}
+.rftable table tbody tr:nth-child(Even){
+    background-color: #fdc867;
+}
+
+.process{
+    text-align: center;
+    padding: 30px 100px;
+}
+.process .divtitle{
+    font-size: 30px;
+    color:#c98b1c;
+    letter-spacing: 0px;
+}
+.process h3{
+    color: #c98b1c;
+   font-size: 15px;
+}
+.process p{
+    font-size: 14px;
+}
+.process img{
+    width: 100px;;
+}
+.fivecol{
+      display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    
+}
+.fivecol div{
+    margin: 10px 5px;
+}
+@media only screen and (max-width: 900px){
+    
+    .margin{
+        padding: 20px 20px;
+    }
+    .u-pull-right{
+        float: none;
+        
+    }
+    .ip6ttl h1{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .rftable{
+        padding: 50px 20px;
+    }
+    .rftable .divtitle,
+     .process .divtitle{
+        font-size: 25px;
+        letter-spacing: 0px;
+    }
+    .process{
+        padding: 10px;
+    }
+    .fivecol{
+         grid-template-columns: 100%;
+    }
+
+    
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .sevencol{
+      grid-template-columns: 100%;
+    }
+    .sixcol{
+        grid-template-columns: 100%;
+    }
+        .banner{
+        text-align: center;
+    }
+    .firstcol,
+    .seconcol{
+        margin: 0px;
+    }
+    .margin{
+        padding: 50px 20px;
+    }
+    .ip6ttl{
+        text-align: center;
+        margin-top: -150px;
+       padding-left: 0px !important;
+    }
+    .u-max-small-width,
+    .u-max-full-width{
+        max-width: 100%;
+        padding: 0px 20px;
+        float: none;
+    }
+    .divtitle,
+    .ttl{
+        font-size: 30px;
+   
+    }
+    .divdesc{
+         font-size: 20px;
+    }
+    .specifications .sixcol,
+    .specifications .desc{
+        text-align: center;
+        float: none;
+    }
+    .ico{
+        width: 60px;
+    }
+    .ico2{
+        width: 40px;
+    }
+    .ttl img{
+       display: none;
+    }
+    .ttl{
+        text-align: center;
+    }
+   
+}
+
+
+
+
+
+
